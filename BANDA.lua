@@ -13499,8 +13499,7 @@ send(msg.chat_id_,msg.id_, '[انا اجمد ..😊💕](t.me/SO_ROGEN)')
 return false
 end
 end
-end
-if text then 
+end 
 
 if text then 
 list = {'بنتي'}
@@ -14932,7 +14931,7 @@ Msᴀɢ ~ #msgs
 𖤂 ~ 𝑢𝑠𝑒 #username  𖤐
 𖤂 ~ 𝑚𝑠𝑔 #msgs 𖤐
 𖤂 ~ 𝑠𝑡𝑎 #stast  
-𖤂 ~ 𝑖𝑑 #id 𖤐
+𖤂 ~ 𝑖𝑑 #id ??
 𖤂 ~ 𝑒𝑑𝑖𝑡 #edit 𖤐
 𖤂 ~ 𝗖𝗛 - 「@SO_ROGEN」 ◉
 ]],
