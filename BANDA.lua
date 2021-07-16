@@ -3172,18 +3172,15 @@ end,nil)
 end
 if text == 'سورس' or text == 'السورس' or text == 'يا سورس' then
 local Text = [[
-╭──── ● « 𝚛 𝚘 𝚘 𝚐 𝚎 𝚗 » ● ────╮
 [☆ 𝚠𝚎𝚕𝚌𝚘𝚖 𝚝𝚘 𝚛𝚘𝚘𝚐𝚎𝚗](t.me/SO_ROGEN)
 
 [☆ 𝚝𝚑𝚎 𝚋𝚎𝚜𝚝 𝚘𝚗 𝚜𝚘𝚞𝚛𝚌𝚎 𝚝𝚎𝚕𝚎](t.me/SO_ROGEN)
 
-[☆ 𝚏𝚘𝚕𝚕𝚘𝚠 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠](t.me/SO_ROGEN)
-╰──── ● « 𝚛 𝚘 𝚘 𝚐 𝚎 𝚗 » ● ────╯
+[☆ 𝚏𝚘𝚕𝚕𝚘𝚠 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠](t.me/SO_ROGEN)     
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝚍𝚎𝚟 𝚊𝚕𝚖𝚊𝚐𝚔', url="t.me/M_A_G_K"}},
-{{text = '𝚍𝚎𝚟 𝚖𝚊𝚛𝚝𝚎𝚗', url="t.me/I_C_X"}},
+{{text = '𝚍𝚎𝚟 𝚊𝚕𝚖𝚊𝚐𝚔', url="t.me/M_A_G_K"}},{{text = '𝚍𝚎𝚟 𝚖𝚊𝚛𝚝𝚎𝚗', url="t.me/I_C_X"}},
 {{text = '𝚍𝚎𝚟 𝚎𝚕𝚔𝚊𝚋𝚘𝚘𝚜',url="t.me/G_W_P"}},
 {{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗 ', url="t.me/SO_ROGEN"}}, 
 {{text = 'اضف البوت لمجموعتك', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
@@ -3993,28 +3990,17 @@ local TWEET_Msg = {
 send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
-if text == "ثيم" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
+if text == "ثيم" or text == "them"  and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
 ght = math.random(1,25); 
-local Text ='اكتب ثيم وسيتم اختيار ثيم اخار' 
+local Text ='اتفضل يحرنكش 🌚❤️' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'ثيم اخر', callback_data="ثيم"}},
-{{text = 'اضف البوت لمجموعتك', url="http://t.me/"..botUserName.."?startgroup=new"}},
+{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}},
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/senddocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/gitt89/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/senddocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/THAM_RO/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == 'ثيم' and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
-ght = math.random(1,25); 
-local Text ='اكتب ثيم وسيتم اختيار ثيم اخار' 
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text = 'ثيم اخر', callback_data="/added"}},
-{{text = 'اضف البوت لمجموعتك', url="http://t.me/"..botUserName.."?startgroup=new"}},
-} 
-local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/senddocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/gitt89/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
+
 if text and text:match('^الحساب (%d+)$') then
 local id = text:match('^الحساب (%d+)$')
 local text = 'اضغط لمشاهده الحساب'
@@ -15213,7 +15199,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 • ❉ 𝑼𝑬𝑺 : #username ‌‌‏.
-• ❉ 𝑺𝑻𝑨 : #stast .
+• ❉ ??𝑻𝑨 : #stast .
 • ❉ 𝑰𝑫 : #id  ‌‌‏.
 • ❉  𝑴𝑺𝑮 : #msgs 𓆊.
 • ❉ 𝑾𝒆𝒍𝒄𝒐𝒎𝒆  ⁞ .
