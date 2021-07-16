@@ -979,6 +979,7 @@ end
 if text == 'قسم الالعاب' then
 local Text = 'مرحب بيك في قسم الالعاب'
 local Key = {
+{'┄─━━•⟮مبرمجين السورس⟯•━━─┄'},
 {' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
 {'مطور','انا مين'},
 {' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
@@ -994,16 +995,22 @@ end
 if text == 'قسم مميزات' then
 local Text = 'مميزات خاصه بي الي متفل في بوتو اغاني فقط'
 local Key = {
+{'┄─━━•⟮مبرمجين السورس⟯•━━─┄'},
 {' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
-{'اغاني','مميزات'},
+{'اغاني','افلام'},
 {' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
-{'الافلام','العاب'},
+{'العاب روجين','مميزات'},
 {' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
-{'قران','روايات'},
+{'لو خيروك بالصوره'},
 {' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
-{'من سيربح المليون'},
+{'ثيم','غنيلي'},
 {' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
-{'ثيم','الحوت الاسود'},
+{'كت تويت بالصوره'},
+{' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
+{'صور انيمي'},
+{' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
+{'خلفيات','استوري'},
+{' ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄'},
 {'العوده'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
@@ -3173,7 +3180,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝚍𝚎𝚟 𝚖𝚊𝚛𝚝𝚎𝚗', url="t.me/M_A_G_K"}},
+{{text = '𝚍𝚎𝚟 𝚊𝚕𝚖𝚊𝚐𝚔', url="t.me/M_A_G_K"}},
 {{text = '𝚍𝚎𝚟 𝚖𝚊𝚛𝚝𝚎𝚗', url="t.me/I_C_X"}},
 {{text = '𝚍𝚎𝚟 𝚎𝚕𝚔𝚊𝚋𝚘𝚘𝚜',url="t.me/G_W_P"}},
 {{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}}, 
@@ -4083,6 +4090,7 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ROOGEN1/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
+
 if text == 'العاب روجين' or text == 'العاب مطوره' or text == 'العاب متطوره' then  
 local Text = [[  
   ◉ اهلا في قائمه الالعاب المتطوره سورس روجين  ◉ 
@@ -4277,16 +4285,83 @@ tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = SUDO, offset_ = 0, lim
 end,nil)
 end
 end
+
 if text == "غنيلي" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
 ght = math.random(3,200); 
-local Text ='تم اختيار المقطع الصوتي لك' 
+local Text ='اتفضل يحرنكش 🌚❤️' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'اضف البوت لمجموعتك', url="http://t.me/"..botUserName.."?startgroup=new"}},
+{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}},
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/Ccckkc/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/ROGE_Y/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
+end
+
+if text == "استوري" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
+ght = math.random(1,24); 
+local Text ='اتفضل يحرنكش 🌚❤️' 
+keyboard = {}  
+keyboard.inline_keyboard = { 
+{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}},
+} 
+local msg_id = msg.id_/2097152/0.5 
+https.request("https://api.telegram.org/bot"..token..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/st_rogen/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "ثيم" or text == "them"  and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
+ght = math.random(1,25); 
+local Text ='اتفضل يحرنكش 🌚❤️' 
+keyboard = {}  
+keyboard.inline_keyboard = { 
+{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}},
+} 
+local msg_id = msg.id_/2097152/0.5 
+https.request("https://api.telegram.org/bot"..token..'/senddocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/THAM_RO/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "صور انيمي" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
+ght = math.random(1,60); 
+local Text ='اتفضل يحرنكش 🌚❤️' 
+keyboard = {}  
+keyboard.inline_keyboard = { 
+{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}}, 
+} 
+local msg_id = msg.id_/2097152/0.5 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/s_rogen/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "خلفيات" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
+ght = math.random(1,28); 
+local Text ='اتفضل يحرنكش 🌚❤️' 
+keyboard = {}  
+keyboard.inline_keyboard = { 
+{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}}, 
+} 
+local msg_id = msg.id_/2097152/0.5 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/KHALFEAT_RO/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "كت تويت بالصوره" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
+ght = math.random(1,14); 
+local Text ='اتفضل يحرنكش 🌚❤️' 
+keyboard = {}  
+keyboard.inline_keyboard = { 
+{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}}, 
+} 
+local msg_id = msg.id_/2097152/0.5 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ka_rogan/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == "لو خيروك بالصوره" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
+ght = math.random(1,16); 
+local Text ='اتفضل يحرنكش 🌚❤️' 
+keyboard = {}  
+keyboard.inline_keyboard = { 
+{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}}, 
+} 
+local msg_id = msg.id_/2097152/0.5 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/lo_rogen/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "تفعيل تنظيف التلقائي" and BasicConstructor(msg)  then
@@ -4320,7 +4395,7 @@ database:set(bot_id..'Bot:Id:Photo'..msg.chat_id_,true)
 database:set(bot_id.."lock:Video"..msg.chat_id_,'ked')  
 database:hset(bot_id.."flooding:settings:"..msg.chat_id_ ,"flood",'mute')  
 tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(arg,data) 
-send(msg.chat_id_, msg.id_,'  ◉ تم تعطيل جلب الصوره ،\n  ◉ تم قفل البوتات  ،\n  ◉ تم قفل التكرار ،\n  ◉ تم قفل الروابط ،\n  ◉ تم قفل التوجيه ،\n  ◉ تم قفل الملصقات ،\n  ◉ تم قفل المتحركه ،\n  ◉ تم قفل الفيديو ،\n  ◉ تم قفل الفشار ،\n  ◉ تم قفل الانلاين ،\n  ◉ تم قفل تعديل المديا ،\n  ◉ تم وضع التكرار  ،\n  ◉ تم قفل الفارسيه  ،\n  ◉ تم وضع الايدي بدون صوره ،n  \n  ◉ تم تفعيل الحمايه  بواسطه ، [「'..Rutba(msg.sender_user_id_,msg.chat_id_)..'」](T.ME/'..(data.username_ or 'textchuser')..')  ')
+send(msg.chat_id_, msg.id_,'  ◉ تم تعطيل جلب الصوره ،\n  ◉ تم قفل البوتات  ،\n  ◉ تم قفل التكرار ،\n  ◉ تم قفل الروابط ،\n  ◉ تم قفل التوجيه ،\n  ◉ تم قفل الملصقات ،\n  ◉ تم قفل المتحركه ،\n  ◉ تم قفل الفيديو ،\n  ◉ تم قفل الفشار ،\n  ◉ تم قفل الانلاين ،\n  ◉ تم قفل تعديل المديا ،\n  ◉ تم وضع التكرار  ،\n  ◉ تم قفل الفارسيه  ،\n  ◉ تم وضع الايدي بدون صوره ،\n  ◉ تم تفعيل الحمايه  بواسطه ، [「'..Rutba(msg.sender_user_id_,msg.chat_id_)..'」](T.ME/'..(data.username_ or 'textchuser')..')  ')
 end,nil)   
 end
 if text == 'تعطيل الحمايه'and Mod(msg) and msg.reply_to_message_id_ == 0 then 
@@ -15517,7 +15592,7 @@ Msᴀɢ ~ #msgs
 𝐓𝐓• 𝗖𝗛 - 「@SO_ROGEN」  ◉
 ]],
 [[
-↑↓𝙐𝙎𝙀𝙍𝙉𝘼𝙈𝙀 ➱ #username  ◉  
+↑↓??𝙎𝙀𝙍𝙉𝘼𝙈𝙀 ➱ #username  ◉  
 ↑↓𝙄𝘿 ➱ #id
 ↑↓𝙍𝘼𝙉𝙆 ➱  #stast  ◉  
 ↑↓𝙈𝘼𝙎𝙂 ➱ #msgs  ◉  
