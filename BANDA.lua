@@ -3170,25 +3170,6 @@ end
 end
 end,nil)   
 end
-if text == 'سورس' or text == 'السورس' or text == 'يا سورس' then
-local Text = [[
-[☆ 𝚠𝚎𝚕𝚌𝚘𝚖 𝚝𝚘 𝚛𝚘𝚘𝚐𝚎𝚗](t.me/SO_ROGEN)
-
-[☆ 𝚝𝚑𝚎 𝚋𝚎𝚜𝚝 𝚘𝚗 𝚜𝚘𝚞𝚛𝚌𝚎 𝚝𝚎𝚕𝚎](t.me/SO_ROGEN)
-
-[☆ 𝚏𝚘𝚕𝚕𝚘𝚠 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠](t.me/SO_ROGEN)
-]]
-keyboard = {} 
-keyboard.inline_keyboard = {
-{{text = '𝚍𝚎𝚟 𝚊𝚕𝚖𝚊𝚐𝚔', url="t.me/M_A_G_K"}},
-{{text = '𝚍𝚎𝚟 𝚖𝚊𝚛𝚝𝚎𝚗', url="t.me/I_C_X"}},
-{{text = '𝚍𝚎𝚟 𝚎𝚕𝚔𝚊𝚋𝚘𝚘𝚜',url="t.me/G_W_P"}},
-{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}}, 
-{{text = 'اضف البوت لمجموعتك', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/ROOGEN1/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
 
 if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
 local Text = [[
@@ -15200,7 +15181,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 ➞: 𝒔𝒕𝒂𓂅 #stast 𓍯➸💞.
-➞: 𝐮𝐬𝐞𝐫𓂅 #username 𓍯➸💞.
+➞: 𝐮𝐬𝐞𝐫𓂅 #username 𓍯➸??.
 ➞: 𝒎𝒔𝒈𝒆𓂅 #msgs 𓍯➸💞.
 ➞: ??𝒅 𓂅 #id 𓍯➸💞.
 ➞: 𝗖𝗛 - 「@SO_ROGEN」  ◉
