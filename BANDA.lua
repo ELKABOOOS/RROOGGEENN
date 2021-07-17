@@ -984,14 +984,14 @@ local Key = {
 {'انصحنى','كتبات'},
 {'صور انيمي'},
 {'صراحه','تويت'},
-{'خلفيات'},
-{'كت تويت بالصوره'},
-{'عقاب','اذكر'},
 {'بوستات'},
+{'خلفيات','كت تويت بالصوره'},
+{'الالعاب'},
+{'عقاب','اذكر'},
+{'صور'},
 {'لو خيروك','نكته'},
 {'غنيلي'},
-{'لو خيروك بالصوره'},
-{'استوري'},
+{'لو خيروك بالصوره','استوري'},
 {'العوده'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
@@ -1013,7 +1013,7 @@ end
 if text == 'قسم مطورين السورس' then
 local Text = 'قسم مطورين السورس لدخول الي حسابتهم'
 local Key = {
-{'مبرمجين السورس'},
+{'┄─━━•⟮مبرمجين السورس⟯•━━─┄'},
 {'قناة السورس','التواصل'},
 {'العوده'},
 }
@@ -1268,7 +1268,7 @@ end
 if text == 'قسم السورس' and DevSoFi(msg) then 
 local Text = 'قسم مطورين السورس لدخول الي حسابتهم'
 local Key = {
-{'مبرمجين السورس'},
+{'┄─━━•⟮مبرمجين السورس⟯•━━─┄'},
 {'قناة السورس','التواصل'},
 {'العوده'},
 }
@@ -1386,7 +1386,7 @@ if text == 'الاصدار' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 send(msg.chat_id_, msg.id_,'  ◉ اصدار سورس روجين{ S:12✓}')
 end
-if text == 'مبرمجين السورس' then
+if text == '┄─━━•⟮مبرمجين السورس⟯•━━─┄' then
 local Text = [[ 
 قناه مطورين السورس 🍂
 محتاج تنصب بوت حمايه ببلاش تواصل معانا✅
@@ -3271,19 +3271,21 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/G_W_P&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
+
 if text == 'مبرمجين السورس' then
 local Text = [[
-مبرمجين سورس روجين لوحابب تتواصل معاهم اتبع الازرار الي تحت ⇊
+الكابوس مبرمج سورس روجين لوحابب تتواصل معاه ❤️.
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝚍𝚎𝚟 𝚊𝚕𝚖𝚊𝚐𝚔',url="t.me/M_A_G_K"},{text = '𝚍𝚎𝚟 𝚖𝚊𝚛𝚝𝚎𝚗', url="t.me/I_C_X"}},
-{{text = '𝚍𝚎𝚟 𝚎𝚕𝚔𝚊𝚋𝚘𝚘𝚜', url="t.me/G_W_P"}},
-{{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}},
+{{text = '𝚍𝚎𝚟 𝚊𝚕𝚖𝚊𝚐𝚔',url="t.me/M_A_G_K"}},
+{{text = '𝚍𝚎𝚟 𝚖𝚊𝚛𝚝𝚎𝚗',url="t.me/I_C_X"}},
+{{text = '𝚍𝚎𝚟 𝚎𝚕𝚔𝚊𝚋𝚘𝚘𝚜',url="t.me/G_W_P"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ROOGEN1/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SO_ROGEN&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
+
 if text=="اذاعه بالتثبيت" and msg.reply_to_message_id_ == 0 and SudoBot(msg) then 
 database:setex(bot_id.."Bc:Grops:Pin" .. msg.chat_id_ .. ":" .. msg.sender_user_id_, 600, true) 
 send(msg.chat_id_, msg.id_,"  ◉ ارسل الان اذاعتك؟ \n  ◉ للخروج ارسل الغاء ")
@@ -15024,7 +15026,7 @@ Msᴀɢ ~ #msgs
 [[
 ➥• USE 𖦹 #username - 🇪🇬.
 ➥• MSG 𖥳 #msgs  - 🇪🇬.
-➥• STA 𖦹 #stast - 🇪🇬.
+➥• STA ?? #stast - 🇪🇬.
 ➥• iD 𖥳 #id - 🇪🇬.
 ➥• 𝗖𝗛 - 「@SO_ROGEN」  ◉.
 ]],
@@ -17369,7 +17371,7 @@ keyboard.inline_keyboard = {
 {text = 'اوامر الاعضاء', callback_data="/change-names"},
 },
 {
-{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
+{text = '𝚜𝚘𝚞𝚛𝚌𝚎 ??𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
