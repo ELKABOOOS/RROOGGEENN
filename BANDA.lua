@@ -16253,13 +16253,10 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'العاب السورس💌', callback_data="/mute-name"},{text = 'مميزات🎪', callback_data="/change-photo"},
+{text = 'العاب السورس', callback_data="/mute-name"},{text = 'العاب متطوره', callback_data="/sofi"},
 },
 {
-{text = 'العاب متطوره🎮', callback_data="/sofi"},
-},
-{
-{text = 'الاوامر🎡', callback_data="/help90"},
+{text = 'الاوامر', callback_data="/help90"},
 },
 {
 {text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
@@ -16281,7 +16278,7 @@ keyboard.inline_keyboard = {
 {text = 'اوامر الاعضاء', callback_data="/change-names"},
 },
 {
-{text = '˹𝐣𝐨𝐢𝐧➧??𝐨𝐨𝐧˼', url="t.me/SO_ROGEN"},
+{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -16674,7 +16671,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'الرجوع الاوامر 🃏', callback_data="/help8"},
+{text = 'الرجوع الاوامر', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -16746,7 +16743,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'الرجوع الاوامر 🃏', callback_data="/help8"},
+{text = 'الرجوع الاوامر', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -16809,7 +16806,7 @@ keyboard.inline_keyboard = {
 {text = 'اوامر التنزيل والرفع', callback_data="/help4"},
 },
 {
-{text = '◗القائمه الرائسيه◖', callback_data="/help8"},
+{text = 'القائمه الرائسيه', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -16991,7 +16988,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'الرجوع الاوامر 🃏', callback_data="/help8"},
+{text = 'الرجوع الاوامر', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17031,7 +17028,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'الرجوع الاوامر 🃏', callback_data="/help8"},
+{text = 'الرجوع الاوامر', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17100,10 +17097,10 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'الرجوع الاوامر 🃏', callback_data="/help8"},
+{text = 'الرجوع الاوامر', callback_data="/help8"},
 },
 {
-{text = 'مميزات التسليه 🧸', callback_data="/help10"},
+{text = 'مميزات التسليه', callback_data="/help10"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17255,7 +17252,7 @@ keyboard.inline_keyboard = {
 {text = 'ااوامر اصحاب الرتب ⇊', callback_data="/help2"},
 },
 {
-{text = '◗القائمه الرائسيه◖', callback_data="/add"},
+{text = 'القائمه الرائسيه', callback_data="/add"},
 },
 {
 {text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
@@ -17278,7 +17275,7 @@ keyboard.inline_keyboard = {
 {{text = 'لعبه حزوره', url="https://t.me/ROOGEN1/35"},{text = 'لعبه المعاني', url="https://t.me/ROOGEN1/37"}}, 
 {{text = 'لعبه الامثله', url="https://t.me/ROOGEN1/36"},{text = 'عقاب', url="https://t.me/ROOGEN1/34"}},
 {{text = 'مريم', url="https://t.me/ROOGEN1/45"}},
-{{text = '◗القائمه الرائسيه◖', callback_data="/add"}},
+{{text = 'القائمه الرائسيه', callback_data="/add"}},
 {{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17315,7 +17312,7 @@ keyboard.inline_keyboard = {
 {{text = 'SpaceTraveler', url="https://t.me/gamee?game=SpaceTraveler"},{text = 'RedAndBlue', url="https://t.me/gamee?game=RedAndBlue"}},  
 {{text = 'SkodaHockey1 ', url="https://t.me/gamee?game=SkodaHockey1"},{text = 'SummerLove', url="https://t.me/gamee?game=SummerLove"}},  
 {{text = 'SmartUpShark', url="https://t.me/gamee?game=SmartUpShark"},{text = 'SpikyFish3', url="https://t.me/gamee?game=SpikyFish3"}},  
-{{text = '◗القائمه الرائسيه◖', callback_data="/add"}},
+{{text = 'القائمه الرائسيه', callback_data="/add"}},
 {{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17350,7 +17347,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '◗القائمه الرائسيه◖', callback_data="/change-id"},
+{text = 'القائمه الرائسيه', callback_data="/change-id"},
 },
 {
 {text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
@@ -17371,7 +17368,7 @@ keyboard.inline_keyboard = {
 {text = 'اوامر الاعضاء', callback_data="/change-names"},
 },
 {
-{text = '𝚜𝚘𝚞𝚛𝚌𝚎 ??𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
+{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17390,7 +17387,7 @@ keyboard.inline_keyboard = {
 {{text = 'بتكره دا', url="https://t.me/ROOGEN1/58"},{text = 'نكته', url="https://t.me/ROOGEN1/59"}}, 
 {{text = 'غنيلي', url="https://t.me/ROOGEN1/60"}},
 {{text = 'نسبه جمالي', url="https://t.me/ROOGEN1/53"},{text = 'اليتيوب', url="https://t.me/ROOGEN1/63"}},
-{{text = '◗القائمه الرائسيه◖', callback_data="/add"}},
+{{text = 'القائمه الرائسيه', callback_data="/add"}},
 {{text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17407,13 +17404,10 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'العاب السورس💌', callback_data="/mute-name"},{text = 'مميزات🎪', callback_data="/change-photo"},
+{text = 'العاب السورس', callback_data="/mute-name"},{text = 'العاب متطوره', callback_data="/sofi"},
 },
 {
-{text = 'العاب متطوره🎮', callback_data="/sofi"},
-},
-{
-{text = 'الاوامر🎡', callback_data="/help12"},
+{text = 'الاوامر', callback_data="/help12"},
 },
 {
 {text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
