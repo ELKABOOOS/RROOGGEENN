@@ -948,7 +948,7 @@ local keyboard = {
 }
 send_inline_key(msg.chat_id_,bl,keyboard)
 end
-if text == "/start" then
+if text == "/start" == "بوت مين" == "فين البوت" then
 if not DevSoFi(msg) then
 local Namebot = (database:get(bot_id..'Name:Bot') or 'روجين') 
 local BANDA_Msg = { 
@@ -4490,7 +4490,7 @@ database:del(bot_id.."lock:forward"..msg.chat_id_)
 database:del(bot_id..'Bot:Id'..msg.chat_id_) 
 database:del(bot_id..'Bot:Id:Photo'..msg.chat_id_) 
 tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(arg,data) 
-send(msg.chat_id_, msg.id_,'  ◉ تم تفعيل جلب الصوره ،\n  ◉ تم  فتح البوتات  ،\n  ◉ تم  فتح التكرار ،\n  ◉ تم  فتح الروابط ،\n  ◉ تم  فتح التوجيه ،\n  ◉ تم  فتح الملصقات ،\n  ◉ تم  فتح المتحركه ،\n  ◉ تم  فتح الفيديو ،\n  ◉ تم  فتح الفشار ،\n  ◉ تم  فتح الانلاين ،\n  ◉ تم  فتح تعديل المديا ،\n  ◉ تم وضع التكرار  ،\n  ◉ تم  فتح الفارسيه  ،\n  ◉ تم وضع الايدي بصوره،n \n  ◉ تم تفعيل الحمايه  بواسطه ، [「'..Rutba(msg.sender_user_id_,msg.chat_id_)..'」](T.ME/'..(data.username_ or 'textchuser')..')  ')
+send(msg.chat_id_, msg.id_,'  ◉ تم تفعيل جلب الصوره ،\n  ◉ تم  فتح البوتات  ،\n  ◉ تم  فتح التكرار ،\n  ◉ تم  فتح الروابط ،\n  ◉ تم  فتح التوجيه ،\n  ◉ تم  فتح الملصقات ،\n  ◉ تم  فتح المتحركه ،\n  ◉ تم  فتح الفيديو ،\n  ◉ تم  فتح الفشار ،\n  ◉ تم  فتح الانلاين ،\n  ◉ تم  فتح تعديل المديا ،\n  ◉ تم وضع التكرار  ،\n  ◉ تم  فتح الفارسيه  ،\n  ◉ تم وضع الايدي بصوره،\n  ◉ تم تفعيل الحمايه  بواسطه ، [「'..Rutba(msg.sender_user_id_,msg.chat_id_)..'」](T.ME/'..(data.username_ or 'textchuser')..')  ')
 end,nil)   
 end
 if text == 'تفعيل الحمايه القصوه'and Mod(msg) and msg.reply_to_message_id_ == 0 then 
@@ -5810,7 +5810,7 @@ if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
-local TextS = "\n  ◉ اهلا بك في متجر ملفات روجين\n  ◉ ملفات السورس ↓\n◤━───━??𝗼𝗼𝗼𝗻━───━◥\n\n"
+local TextS = "\n  ◉ اهلا بك في متجر ملفات روجين\n  ◉ ملفات السورس ↓\n┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄\n"
 local TextE = "\n ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄\n  ◉ علامة تعني { ✔️ } ملف مفعل\n  ◉ علامة تعني { ✖ } ملف معطل\n  ◉ قناة سورس روجين↓\n".."  ◉ [اضغط هنا لدخول](t.me/SO_ROGEN) \n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
@@ -10883,7 +10883,7 @@ local text =
 ' }\n'..'  ◉  الايدي  ↚ { '..idgp..
 ' }\n'..'  ◉  الايدي بالصوره  ↚ { '..idph..
 ' }\n'..'  ◉  الرفع  ↚ { '..setadd..
-' }\n'..'  ◉  الحظر  ↚ { '..banm..' }\n\n  ◉ ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄\n  ◉ قناة سورس روجين↓\n [ ❲[𝐒ΘΘ𝐍](t.me/SO_ROGEN)❳](t.me/SO_ROGEN) \n'
+' }\n'..'  ◉  الحظر  ↚ { '..banm..' }\n\n  ◉ ┄─━━━━𝗿𝗼𝗼𝗴𝗲𝗻━━━━─┄\n  ◉ قناة سورس روجين↓\n [𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗](t.me/SO_ROGEN) \n'
 send(msg.chat_id_, msg.id_,text)     
 end
 if text ==('تثبيت') and msg.reply_to_message_id_ ~= 0 and Mod(msg) then  
@@ -14588,7 +14588,7 @@ local List = {
 [[
 - UsEr🇪🇬 ꙰ #username
 - StA🇪🇬 ꙰   #msgs
-- MsGs🇪🇬 ꙰ #stast
+- MsGs??🇬 ꙰ #stast
 - ID🇪🇬 ꙰  #id
 - 𝗖𝗛 🇪🇬 ꙰  「@SO_ROGEN」 💞.
 ]],
@@ -15025,7 +15025,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 ➥• USE 𖦹 #username - 🇪🇬.
-➥• MSG 𖥳 #msgs  - 🇪🇬.
+➥• MSG ?? #msgs  - 🇪🇬.
 ➥• STA ?? #stast - 🇪🇬.
 ➥• iD 𖥳 #id - 🇪🇬.
 ➥• 𝗖𝗛 - 「@SO_ROGEN」  ◉.
@@ -16256,7 +16256,10 @@ keyboard.inline_keyboard = {
 {text = 'العاب السورس', callback_data="/mute-name"},{text = 'العاب متطوره', callback_data="/sofi"},
 },
 {
-{text = 'الاوامر', callback_data="/help12"},{text = 'مميزات', callback_data="/change-photo"},
+{text = 'مميزات', callback_data="/change-photo"},
+},
+{
+{text = 'الاوامر', callback_data="/help12"},
 },
 {
 {text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
@@ -17407,7 +17410,10 @@ keyboard.inline_keyboard = {
 {text = 'العاب السورس', callback_data="/mute-name"},{text = 'العاب متطوره', callback_data="/sofi"},
 },
 {
-{text = 'الاوامر', callback_data="/help12"},{text = 'مميزات', callback_data="/change-photo"},
+{text = 'مميزات', callback_data="/change-photo"},
+},
+{
+{text = 'الاوامر', callback_data="/help12"},
 },
 {
 {text = '𝚜𝚘𝚞𝚛𝚌𝚎 𝚛𝚘𝚘𝚐𝚎𝚗', url="t.me/SO_ROGEN"},
